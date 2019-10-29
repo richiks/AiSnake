@@ -27,6 +27,3 @@ OTHER_FILES += $$files(res/*)
 exists($$PWD/*.txt) {
     OTHER_FILES += $$files($$PWD/*.txt)
 }
-
-DISTFILES += \
-    rand.txt
